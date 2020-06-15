@@ -1,0 +1,69 @@
+.backg{
+    height: 100vh;
+    position: relative;
+}
+
+.upper{
+    height: 50vh;
+    background-color: #3a3633;
+    color: white;
+}
+
+.down{
+    height:50vh;
+    background-image: linear-gradient(to right, #fff, #64bbf5);
+    color: white;
+    text-align: right;
+    z-index: 5;
+}
+
+.upper > h3{
+    font-size: 6em;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.upper p{
+    font-size: 2em;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.down > h3{
+    font-size: 5em;
+    padding-right: 30px;
+    padding-top: 150px;
+}
+
+.down p{
+    font-size: 2em;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.upper-content{
+    color: white;
+    border: solid white 5px;
+    position: absolute;
+    max-width: 300px;
+    margin-left:100px;
+    margin-top: -50px;
+    z-index:999;
+    background-color: #3a3633;
+    text-align: center;
+    padding: 20px;
+    transition: transform 8s ease-in-out;
+}
+
+.upper-content > h5{
+    font-size: 2em;
+}
+
+.upper-content1{
+    font-size: 1em;
+}
+
+.upper-content:hover{
+    transform: rotate(360deg);
+
+}

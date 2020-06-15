@@ -1,0 +1,28 @@
+.end{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid #3a3633 1px;
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px 0 20px 0;
+    max-width: 100%;
+}
+
+.foot1 > a {
+    text-decoration: none;
+    margin: 10px;
+    color: #3a3633;
+    font-size: 1.4em;
+    line-height: 20px;
+}
+
+@media screen and (max-width:768px){
+    .end{
+        display:flex;
+        min-width: 50%;
+    }
+}

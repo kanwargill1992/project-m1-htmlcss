@@ -1,0 +1,58 @@
+.wrapper{
+    display:flex;
+}
+
+.parent {
+    width: calc(100%/3);
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+
+.bg-one {background-image: url(../imgs/tesla.jpg);}
+.bg-two {background-image: url(../imgs/procat.jpg);}
+.bg-three {background-image: url(../imgs/hyperloop.jpg);}
+.bg-four {background-image: url(../imgs/sneakycat.jpg);}
+.bg-five {background-image: url(../imgs/bfr.jpeg);}
+.bg-six {background-image: url(../imgs/funnycat.jpg);}
+
+.child > a {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.parent:hover .child, .parent:focus .child {
+    transform: scale(1.2);
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .parent {width: 100%; margin: 0px 0px}
+
+    .wrapper {padding: 0px 0px;
+    display:flex;
+    flex-direction:column;}
+}

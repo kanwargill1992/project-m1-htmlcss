@@ -1,0 +1,94 @@
+.nav{
+    height: 70px;
+    background-color: #3a3633;
+    position: fixed;
+    width: 100%;
+    z-index: 444;
+}
+
+.logo12 {
+    height: 60px;
+    width: 60px;
+    padding-top: -20px;
+    display: inline-block;
+}
+
+.nav a{
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav-content{
+    float:right;
+}
+
+.dropdown {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover > .drop {
+    display: block;
+    position: absolute;
+    top: 100%;
+    margin-right:10px ;
+    background-color: #3a3633;
+    z-index: 23;
+    color: white;
+}
+
+.anchor:hover {
+    text-decoration: underline;
+}
+
+.anchor1:hover  {
+    text-decoration: underline;
+}
+
+.anchor2:hover  {
+    text-decoration: underline;
+}
+
+.anchor3:hover  {
+    text-decoration: underline;
+}
+
+.drop-menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+.drop-menu > a {
+    display: block;
+    padding: 30px;
+    
+}
+
+.drop-menu > a:hover {
+    background-color: #3a3633;
+    opacity: 0.5;
+}
+
+.drop {
+    display: none;
+}
+
+.icon{
+    display: none;
+    
+}
+@media screen and (max-width:768px){
+    .nav a:not(:first-child),
+    .dropdown,
+    .nav .anchor{
+        display: none;
+    }
+    .nav a.icon{
+        float: right;
+        display: block;
+    }
+}

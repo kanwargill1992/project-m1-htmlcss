@@ -1,0 +1,42 @@
+.form1 {
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    font-size: 1em;
+}
+
+.form-content {
+    border: solid 2px #3a3633;
+    margin-bottom: 10px;
+    width: 150%;
+    height: 20px;
+    border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+input.button-add{
+    background-image: url(../imgs/send.svg);
+    cursor:pointer;
+    border: solid #3a3633 1px;
+    color: #3a3633;
+    background-color: #3a3633; 
+    background-repeat: no-repeat;  
+    background-position: 0px 0px;            
+    cursor: pointer;        
+    height: 26px;           
+    padding-left: 17px;     
+    font-size: 0px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.input1{
+    display: flex;
+    flex-direction: row;
+}
+
+.check12{
+    margin-top: -20px;
+}
+

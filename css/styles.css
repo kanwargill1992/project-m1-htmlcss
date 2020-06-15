@@ -1,1 +1,22 @@
 /* CSS here :) */
+@import 'header.css';
+@import 'reset.css';
+@import 'card.css';
+@import 'cards.css';
+@import 'backg.css';
+@import 'images.css';
+@import 'form.css';
+@import 'foot.css';
+
+html {
+    scroll-behavior : smooth;
+    };
+
+body {
+    max-width: 1200px;
+    box-sizing: border-box;
+};
+
+.container {
+    font-family: 'Poppins', sans-serif;
+};
